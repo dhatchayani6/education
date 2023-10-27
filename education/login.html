@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN PAGE</title>
+        <style>
+            input[type=text]{
+                border: 0px;
+                border-bottom: 1px solid #ddd;
+                width: 100%;
+                max-width: 100%;
+                padding: 10px 0px;
+                background-image: url(loginicon.jpg);
+                background-repeat: no-repeat;
+                background-size: 11%;
+                text-align: center;
+                margin-bottom: 10px;
+                color: black;
+            }
+            input[type=text]:focus{
+                background-color: #ed5db2;
+            }
+            input[type=password]{
+                border: 0px;
+                border-bottom: 1px solid #ddd;
+                width: 100%;
+                max-width: 100%;
+                padding: 10px 0px;
+                background-image: url(passwordicon.jpg);
+                background-repeat: no-repeat;
+                background-size: 11%;
+                text-align: center;
+                color: black;
+                margin-bottom: 10px;
+            }
+            input[type=password]:focus{
+                        background-color: #ed5db2;
+            }
+            form{
+                margin: 20px;
+                padding: 105px;
+                border-radius: 25px;
+                box-sizing: border-box;
+                display: inline-block;
+                background:linear-gradient(135deg, #0011ff, #b700ff,coral, #fff);
+            }   
+            h1{
+                text-align: center;
+                color:#ffff;
+            } 
+            body{
+                background-color: #f7058e;
+                background-repeat: no-repeat;
+                background-position: center;
+                padding: 30px;
+                text-align: center;
+            }  
+            .button{
+                margin: 50px 20px 25px 25px;
+                
+            }
+            .login{
+                padding: 10px;
+                border-radius: 5px;
+                border: 0px;
+                background: deeppink;
+                color: #fff;
+                cursor: pointer;
+                width: 100%;
+            }
+            .reset{
+                padding: 10px;
+                border-radius: 5px;
+                border: 0px;
+                background: #f7058e;
+                color: #ffff;
+                cursor: pointer;
+            }
+            div a:link{
+                text-decoration: none;
+                padding: 10px;
+                border: 0px;  
+            }
+            div a:hover{
+                cursor: pointer;
+            }
+            body{
+                background:linear-gradient(150deg,#ff0095,#0206f5)
+            }
+            .myform{
+                padding: 10px;
+            }
+            .newuser button{
+                border: 0px;
+                border-radius: 5px;
+                background-color: #9b59b6;
+                color: #fff;
+                padding: 10px;
+            }
+            .newuser button:hover{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+            <script>
+                function validateform(){
+                    var name=document.myform.name.value;
+                    var password=document.myform.password.value;
+                    if(name==null || name==""){
+                        alert("NAME CANNOT BE BLANK"); 
+                        return false;
+                    }else if(password.length<6|| password==""){
+                        alert("PASWORD MUST BE ATLEAST 6 CHARACTERS LONG.");
+                        return false;
+                    }
+                }
+            </script>
+        <form name="myform" action="validation.php" method="post" onsubmit="return validateform()">
+            <h1>LOGIN</h1>  
+                <input type="text" name="name" maxlength="50" placeholder="name" required>
+                <input type="password" name="password" maxlength="10"placeholder="password" required>
+                <div class="button">
+                    <button class="login" formaction="home.html" onclick="validateform()">LOGIN NOW</button>
+                </div>
+                <div class="newuser">
+                    <label>ARE YOU A NEW USER?</label>
+                    <button formaction="registration.html" onclick="validateform()">NEW USER</button>
+                </div>         
+        </form>
+    </body>
+</html>

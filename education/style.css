@@ -1,0 +1,118 @@
+.html{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse);
+    
+}
+.css{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse); 
+}
+.js{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse);
+}
+.php{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse);
+}
+.java{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse);
+}
+.dj{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse);
+}
+.python{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse);
+}
+.sql{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse);
+}
+.c{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse);
+}
+.asp{
+    float: left;
+    padding: 10px 0px 0px 20px;
+    color:lightyellow;
+    border-radius: 10px;
+    width:350px;
+    margin: 20px 30px 30px 30px;
+    text-indent:10px;
+    outline: 5px groove lightslategrey;
+    background: linear-gradient(45deg,purple,deeppink,chartreuse);
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+body{
+    background: linear-gradient(135deg,navy,rgb(187, 0, 178));
+}
